@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aaryak Garg - Resume</title>
+
+  
+  <style>
+    
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8daca; 
+      color: #000; 
+    }
+
+   
+    .container {
+      width: 85%;
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #000;
+    }
+
+    header p {
+      font-style: italic;
+      color: #000;
+    }
+
+    
+    h2 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+      margin-top: 30px;
+      color: #000;
+    }
+
+    
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    
+    ul li:hover {
+      transform: scale(1.02);
+    }
+
+    
+    button {
+      background-color: #000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: opacity 0.3s ease;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      color: #000;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+
+    
+    <header>
+      <h1>AARYAK GARG</h1>
+      <p>Digital Business | Economics | Finance Enthusiast</p>
+    </header>
+
+    <center><img src="./AR Photo.jpeg" alt="Centered Image" width="300"></center>
+
+    
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: aaryXXXX@gmail.com</p>
+      <p>Phone: 9129XXXXXX</p>
+      <p>Location: Bannerghatta, Bangalore, Karnataka</p>
+    </section>
+
+   
+    <section class="summary">
+      <h2>Summary</h2>
+      <p>Self-motivated and dependable high school graduate currently pursuing higher education with a strong foundation in economics, business, and digital technologies. Passionate about applying analytical and strategic thinking to solve real-world challenges, whether through data analysis, business problem-solving, or tech-driven solutions. Known for a proactive work ethic and dedication to delivering high-quality outcomes. Actively seeking opportunities to develop skills, contribute to impactful projects, and grow professionally in dynamic, fast-paced environments.</p>
+    </section>
+
+    
+    <section class="experience">
+      <h2>Interests</h2>
+      <ul>
+        <li>
+          <strong>1</strong> – Creative Writing<br>
+          
+        </li>
+        <li>
+          <strong>2</strong> – Data Visualization<br>
+          
+        </li>
+        <li>
+          <strong>3</strong> – Reading<br>
+          
+        </li>
+      </ul>
+    </section>
+
+   
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Degree</strong> – IIM Bangalore : BBA in Digital Business and Entrepreneurship (2024-2027)<br>
+        </li>
+        <li>
+          <strong>Degree</strong> – Chirst University Bannerghatta Road Campus : BBA in Finance and Economics (2024-2027)<br>
+        </li>
+      </ul>
+    </section>
+
+    
+    <section class="skills">
+      <h2>Skills</h2>
+     
+      <button onclick="toggleSkills()">Show/Hide Skills</button>
+
+      
+      <ul id="skillsList" style="display: none;">
+        <li>Quick Learner</li>
+        <li>Team Player</li>
+        <li>Basic Python</li>
+        <li>Basic MySQL</li>
+        <li>Basic HTML, CSS & JavaScript</li>
+        <Li>Research and Documentation</Li>
+      </ul>
+    </section>
+
+   
+
+  </div>
+
+  
+  <script>
+    function toggleSkills() {
+      const skillsList = document.getElementById("skillsList");
+      if (skillsList.style.display === "none") {
+        skillsList.style.display = "block";
+      } else {
+        skillsList.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
